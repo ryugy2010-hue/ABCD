@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript 테스트</title>
+</head>
+<body>
+  <h2>JavaScript 작동 테스트</h2>
+  <p id="result">버튼을 눌러 봐!</p>
+  <button onclick="test()">테스트하기</button>
+
+  <script>
+    function test() {
+      document.getElementById("result").textContent =
+        "성공! JavaScript가 작동하고 있어.";
+    }
+  </script>
+</body>
+</html>
