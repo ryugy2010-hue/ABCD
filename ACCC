@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h3>JavaScript 테스트</h3>
+  <p id="count">현재 숫자: 0</p>
+  <button onclick="increase()">숫자 올리기</button>
+
+  <script>
+    let num = 0;
+
+    function increase() {
+      num++;
+      document.getElementById("count").textContent =
+        "현재 숫자: " + num;
+    }
+  </script>
+</body>
+</html>
